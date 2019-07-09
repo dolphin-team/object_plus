@@ -18,7 +18,7 @@ Object.defineProperty(Object.prototype, 'arrayLength', {
 Object.defineProperty(Object.prototype, 'objectLength', {
   value: function () {
     if (typeof this === 'object') {
-      if (Object.prototype.toString.call(this) !== '[object Object]') {
+      if (Object.prototype.toString.call(this) === '[object Object]') {
         return Object.keys(this).length
       }
     }

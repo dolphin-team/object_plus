@@ -3,20 +3,24 @@ Object.defineProperty(Object.prototype, 'isArray', {
         return typeof this === 'object' && Object.prototype.toString.call(this) === '[object Array]';
     }
 });
-Object.defineProperty(Object.prototype, 'isEmpytArray', {
+Object.defineProperty(Object.prototype, 'arrayLength', {
     value: function () {
-        return typeof this === 'object' &&
-            Object.prototype.toString.call(this) === '[object Array]' &&
-            this.length > 0;
+        if (typeof this === 'object') {
+            if (Object.prototype.toString.call(this) === '[object Array]') {
+                return this.length;
+            }
+        }
+        return -1;
     }
 });
-Object.defineProperty(Object.prototype, 'notBlock', {
+Object.defineProperty(Object.prototype, 'objectLength', {
     value: function () {
-        return this && ((typeof this === 'object' &&
-            Object.prototype.toString.call(this) === '[object Array]' &&
-            this.length > 0) || (typeof this === 'object' &&
-            Object.prototype.toString.call(this) !== '[object Array]' &&
-            this.isEmpytArray(Object.keys(this))));
+        if (typeof this === 'object') {
+            if (Object.prototype.toString.call(this) === '[object Object]') {
+                return Object.keys(this).length;
+            }
+        }
+        return -1;
     }
 });
 Object.defineProperty(Object.prototype, 'getter', {
