@@ -1,6 +1,6 @@
 {
   "name": "@sausage_team/object_plus",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "build/index.js",
   "license": "MIT",
   "scripts": {
@@ -13,8 +13,7 @@
     "plugin"
   ],
   "author": "fencer-yd",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "@types/mocha": "^5.2.7",
     "@types/node": "^12.6.1",
