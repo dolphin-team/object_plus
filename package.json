@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "pretest": "tsc -p .",
-    "publish": "npm version patch && npm publish"
+    "pub": "npm version patch && npm publish"
   },
   "keywords": [
     "webpack",
