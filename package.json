@@ -4,6 +4,7 @@
   "main": "build/index.js",
   "license": "MIT",
   "scripts": {
+    "product": "tsc"
   },
   "keywords": [],
   "author": "",
