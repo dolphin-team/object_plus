@@ -1,10 +1,11 @@
 {
   "name": "@sausage_team/object_plus",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "build/index.js",
   "license": "MIT",
   "scripts": {
-    "pretest": "tsc -p ."
+    "pretest": "tsc -p .",
+    "publish": "npm version patch && npm publish"
   },
   "keywords": [
     "webpack",
