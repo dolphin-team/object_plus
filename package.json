@@ -6,8 +6,13 @@
   "scripts": {
     "product": "tsc"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "webpack",
+    "object",
+    "speed",
+    "plugin"
+  ],
+  "author": "fencer-yd",
   "dependencies": {},
   "devDependencies": {},
   "repository": {
