@@ -1,12 +1,10 @@
 {
   "name": "@sausage_team/object_plus",
   "version": "1.0.0",
-  "main": "build/src/index.js",
+  "main": "build/index.js",
   "license": "MIT",
   "scripts": {
-    "pretest": "tsc -p .",
-    "test": "nyc mocha",
-    "posttest": "nyc report --reporter=json"
+    "pretest": "tsc -p ."
   },
   "keywords": [
     "webpack",
