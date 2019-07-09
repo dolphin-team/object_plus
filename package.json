@@ -1,6 +1,6 @@
 {
   "name": "@sausage_team/object_plus",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "build/index.js",
   "license": "MIT",
   "scripts": {
