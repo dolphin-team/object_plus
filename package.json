@@ -1,6 +1,6 @@
 {
   "name": "@sausage_team/object_plus",
-  "version": "1.0.9",
+  "version": "1.0.0",
   "main": "build/index.js",
   "license": "MIT",
   "scripts": {
@@ -12,11 +12,11 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dolphin-team/dp_tool.git"
+    "url": "git+https://github.com/dolphin-team/object_plus.git"
   },
   "bugs": {
-    "url": "https://github.com/dolphin-team/dp_tool/issues"
+    "url": "https://github.com/dolphin-team/object_plus/issues"
   },
-  "homepage": "https://github.com/dolphin-team/dp_tool#readme",
+  "homepage": "https://github.com/dolphin-team/object_plus#readme",
   "description": ""
 }

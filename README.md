@@ -1,6 +1,7 @@
 # object_plus
 
 # Usage
+
 ```
 npm install @sausage_team/object_plus
 or
