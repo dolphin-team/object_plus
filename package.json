@@ -5,7 +5,9 @@
   "license": "MIT",
   "scripts": {
     "pretest": "tsc -p .",
-    "pub": "npm version patch"
+    "patch": "npm version patch",
+    "minor": "npm version minor",
+    "major": "npm version major"
   },
   "keywords": [
     "webpack",
