@@ -1,4 +1,5 @@
 # object_plus
+[![codecov](https://codecov.io/gh/dolphin-team/object_plus/branch/master/graph/badge.svg)](https://codecov.io/gh/dolphin-team/object_plus)
 
 # Usage
 
