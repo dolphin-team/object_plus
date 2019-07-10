@@ -1,0 +1,38 @@
+{
+  "name": "@sausage_team/object_plus_ts",
+  "version": "1.0.5",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "scripts": {
+    "pretest": "tsc -p .",
+    "patch": "npm version patch",
+    "minor": "npm version minor",
+    "major": "npm version major"
+  },
+  "keywords": [
+    "webpack",
+    "object",
+    "speed",
+    "plugin"
+  ],
+  "author": "fencer-yd",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.6.1",
+    "chai": "^4.2.0",
+    "codecov": "^3.5.0",
+    "mocha": "^6.1.4",
+    "nyc": "^14.1.1",
+    "typescript": "^3.5.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dolphin-team/object_plus.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dolphin-team/object_plus/issues"
+  },
+  "homepage": "https://github.com/dolphin-team/object_plus#readme",
+  "description": ""
+}
